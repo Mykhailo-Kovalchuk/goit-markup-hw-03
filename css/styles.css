@@ -1,0 +1,208 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color: var(--slate-color);
+    background-color: var(--white-color);
+    
+}
+:root {
+--iris-color: #4D5AE5;
+--navy-blue-color: #2E2F42;
+--white-color: #ffffff;
+--slate-color: #434455;
+--cloud-color: #F4F4FD;
+--ocean-color: #404BBF;
+
+}
+
+/* HEADER */
+/* header logo */
+.logo-webstudio {
+font-family: "Raleway", sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--iris-color);
+}
+
+.logo-webstudio:hover {color: var(--iris-color);} 
+.logo-webstudio:focus {color: var(--iris-color);} 
+
+.studio {color: var(--navy-blue-color);}
+
+.studio:hover {color: var(--iris-color);}
+.studio:focus {color: var(--iris-color);}
+
+/* ---------LINK----------- */
+.link {text-decoration: none;}
+
+/* header link, list */
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+}
+.header-link:hover {color: var(--ocean-color);}
+.header-link:focus {color: var(--ocean-color);}
+
+/* ---------LIST---------- */
+.list {list-style: none;}
+
+/* header address link */
+    .address-link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: var(--slate-color);
+        letter-spacing: 0.02em;}
+        .address-link:hover {color: var(--ocean-color);}
+        .address-link:focus {color: var(--ocean-color);}
+
+        /* MAIN CONTENT */
+        /* main hero - Section 1*/
+.hero {background:var(--navy-blue-color);}
+.hero-title { font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+        text-align: center;
+    letter-spacing: 0.02em; 
+    color: var(--white-color);}
+
+    .hero-button {
+        font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color: var(--white-color);
+background: var(--iris-color);
+cursor: pointer;
+letter-spacing: 0.04em
+    }
+    .hero-button:hover {background-color: var(--ocean-color);}
+    .hero-button:focus {background-color: var(--ocean-color);}
+
+    /* Featurs - Section 2 */
+.featurs-title {
+}
+
+.featurs-names {  font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);}
+
+.featurs-text {
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate-color);}
+
+/* Work - What are we doing - Section 3 */
+.work-title {font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue-color);}
+
+/* About us - Section 4 */
+.about-us {
+    background: var(--cloud-color);
+}
+.about-title {font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue-color);}
+    
+
+    .name-of-workers {font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue-color);
+        }
+    .work-position {font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--slate-color);
+        }
+
+    .team-figuration {
+        background-color: var(--white-color);
+
+    }
+
+/* Footer */
+.footer {background: var(--navy-blue-color);
+}
+.logo-webstudio-footer {
+    font-family: "Raleway", sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--iris-color);}
+.studio-footer {color: var(--cloud-color);
+}
+.footer-text {
+    color: var(--cloud-color);}
+
+.studio-footer {color: var(--cloud-color);
+}
+.studio-footer:hover {color: var(--iris-color);}
+.studio-footer:focus {color: var(--iris-color);}
+
+
+
+    /* ----------- Portfolio Main -------------- */
+.portfolio-hero-section {}
+
+
+/* buttons of portfolio */
+.button-font-family {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--iris-color);;
+    background-color: var(--cloud-color);}
+.button-font-family:hover {color: var(--white-color);
+background-color: var(--ocean-color);} 
+.button-font-family:focus {color: var(--white-color);
+background-color: var(--ocean-color);} 
+
+.button-cursor, .link-cursor{
+    cursor: pointer;}
+
+   /* Photo products */
+.portfolio-product-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    
+    color: var(--navy-blue-color);}
+
+
+.portfolio-product-description {
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate-color);
+}
+
