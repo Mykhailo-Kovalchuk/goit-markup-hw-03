@@ -43,8 +43,8 @@ img {display: block;}
 
 /* HEADER */
 .header {
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     border-bottom: 1px solid var(--cornflower-color);
 }
 
@@ -103,8 +103,11 @@ margin-right: 76px;
     align-content: flex-start;
     gap: 40px;
 }
-.header-link:hover {color: var(--ocean-color);}
-.header-link:focus {color: var(--ocean-color);}
+.header-list-menu {
+    color: var(--navy-blue-color);
+}
+.header-list-menu:hover {color: var(--ocean-color);}
+.header-list-menu:focus {color: var(--ocean-color);}
 
 .header-list-menu {padding: 24px 0;}
 
@@ -139,11 +142,7 @@ margin-right: 76px;
     padding-bottom: 188px;
 }
 
-.hero-container {display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
+
 
 .hero-title { font-weight: 700;
     font-size: 56px;
@@ -154,12 +153,19 @@ align-items: center;
 margin-bottom: 48px;
 
 }
-.hero-title-container {max-width: 496px;
+.hero-title-container {
+    max-width: 496px;
+    
 
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;}
+    justify-content: center;
+
+    margin: 0 auto;
+    margin-bottom: 48px;
+
+    }
 
     .hero-button {
         font-family: inherit;
@@ -177,6 +183,8 @@ display: block;
 border: none;
 min-width: 169px;
 height: 56px;
+
+margin: 0 auto;
    }
     .hero-button:hover {background-color: var(--ocean-color);}
     .hero-button:focus {background-color: var(--ocean-color);}
@@ -195,7 +203,20 @@ height: 56px;
     gap: 24px
 }
 
-.featurs-title {visibility: hidden;}
+.featurs-title-visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+
 
 .featurs-names {  font-weight: 500;
     font-size: 20px;
@@ -249,11 +270,6 @@ color: var(--slate-color);}
 .about-us-section {
     background: var(--cloud-color);
     padding: 120px 0;
-}
-
-.about-us-container {
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .about-title {font-weight: 500;
@@ -347,7 +363,18 @@ max-width: 264px;
     padding-bottom: 120px;
     padding-top: 96px;
 }
-.portfolio-hero-title {visibility: hidden;}
+.portfolio-hero-title {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 
 
 /* buttons of portfolio */
