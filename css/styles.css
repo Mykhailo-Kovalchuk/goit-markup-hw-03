@@ -103,13 +103,14 @@ margin-right: 76px;
     align-content: flex-start;
     gap: 40px;
 }
+
 .header-list-menu {
+    padding: 24px 0;
     color: var(--navy-blue-color);
 }
 .header-list-menu:hover {color: var(--ocean-color);}
 .header-list-menu:focus {color: var(--ocean-color);}
 
-.header-list-menu {padding: 24px 0;}
 
 /* ---------LIST---------- */
 .list {list-style: none;}
