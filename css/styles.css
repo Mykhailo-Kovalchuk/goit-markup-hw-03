@@ -146,6 +146,7 @@ margin-right: 76px;
 
 
 .hero-title { font-weight: 700;
+    
     font-size: 56px;
     line-height: 1.07;
         text-align: center;
@@ -157,7 +158,6 @@ margin-bottom: 48px;
 .hero-title-container {
     max-width: 496px;
     
-
     display: flex;
     flex-direction: row;
     align-items: center;
